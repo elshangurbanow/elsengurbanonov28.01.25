@@ -23,31 +23,51 @@ header nav a {
 }
 
 #welcome {
-  padding: 40px 0;
   background-image: url(Assets/header-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
 }
 #welcome .box {
-  padding: 20px 0;
   color: white;
-  list-style: 2.1;
+  height: 650px;
 }
 #welcome .box h1 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 700;
 }
 #welcome .box h3 {
   font-size: 72px;
   font-weight: 700;
+  line: 3.2;
   margin: 30px 0 60px;
 }
 #welcome .box .btn {
-  padding: 15px 45px;
+  padding: 18px 45px;
   background: #ffc800;
 }
 #welcome .box .btn h2 {
   color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#services {
+  padding: 40px 0;
+}
+#services h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#services h2 {
+  font-size: 18px;
+}
+#services .box .icon {
+  font-size: 60px;
+  color: white;
+  padding: 37px;
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  background-color: #ffc800;
 }/*# sourceMappingURL=style.css.map */
