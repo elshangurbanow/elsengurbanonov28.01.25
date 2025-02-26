@@ -28,13 +28,12 @@ header nav a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 750px;
 }
 #welcome .box {
-  align-items: center;
-  justify-content: center;
-  width: 800px;
-  height: 600px;
   padding: 20px 0;
+  color: white;
+  list-style: 2.1;
 }
 #welcome .box h1 {
   font-size: 36px;
