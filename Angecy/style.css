@@ -15,6 +15,8 @@ section {
 }
 
 header .menu {
+  position: fixed;
+  width: 1300px;
   height: 100px;
 }
 header .menu .imgbox {
@@ -94,4 +96,13 @@ header .menu nav a {
 #services .box .textbox h4 {
   font-size: 20px;
   line-height: 1.4;
+}
+
+#portfolio h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#portfolio h3 {
+  font-size: 20px;
+  margin: 15px 0;
 }/*# sourceMappingURL=style.css.map */
