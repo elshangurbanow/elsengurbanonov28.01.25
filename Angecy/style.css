@@ -64,6 +64,7 @@ header .menu nav a {
 }
 #services h3 {
   font-size: 18px;
+  color: #6c7596;
 }
 #services .box {
   display: flex;
@@ -95,14 +96,26 @@ header .menu nav a {
 }
 #services .box .textbox h4 {
   font-size: 20px;
+  color: #6c7596;
   line-height: 1.4;
 }
 
+#portfolio {
+  margin: 20px 0;
+}
 #portfolio h1 {
   font-weight: 700;
   font-size: 40px;
 }
-#portfolio h3 {
+#portfolio .textbox {
+  padding: 20px;
+}
+#portfolio .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#portfolio .textbox h3 {
   font-size: 20px;
   margin: 15px 0;
+  color: #6c7596;
 }/*# sourceMappingURL=style.css.map */
