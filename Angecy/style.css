@@ -129,30 +129,22 @@ header .menu nav a {
   font-size: 18px;
   color: #6c7596;
 }
-#about .imgbox {
-  width: 150px;
-  border: 7px solid #e9ecef;
-  border-radius: 100%;
-}
 #about .box {
-  display: flex;
-  flex-flow: row;
+  padding-left: 120px;
 }
 #about .box .textbox {
-  text-align: end;
+  text-align: right;
   width: 380px;
-  margin: 20px 0;
 }
-#about .box .textbox h2, #about .box .textbox h3 {
+#about .box h2 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
 }
-#about .box .textbox p {
-  font-weight: 300;
+#about .box p {
+  font-size: 18px;
   line-height: 1.4;
-  color: #6c7596;
 }
-#about .box .imgbox {
+#about .box .minibox .imgbox {
   width: 150px;
   border: 7px solid #e9ecef;
   border-radius: 100%;
