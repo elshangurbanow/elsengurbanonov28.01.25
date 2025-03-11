@@ -11,15 +11,13 @@ body {
 }
 
 section {
-  padding: 80px 0;
+  padding: 90px 0;
 }
 
 .menu {
-  padding: 20px 0;
-  border: none;
-  background-color: transparent;
-  transition: 2s;
+  padding: 30px 0;
 }
+
 header .menu {
   position: fixed;
   width: 1300px;
@@ -135,23 +133,22 @@ header .menu nav a {
   font-size: 18px;
   color: #6c7596;
 }
-#about .box {
-  padding-left: 120px;
-}
-#about .box .textbox {
-  text-align: right;
+#about .textbox {
   width: 380px;
 }
-#about .box h2 {
+#about .textbox h2 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-#about .box p {
+#about .textbox p {
   font-size: 18px;
-  line-height: 1.4;
 }
-#about .box .minibox .imgbox {
+#about .box {
   width: 150px;
-  border: 7px solid #e9ecef;
+}
+#about .box .imgbox {
   border-radius: 100%;
+  border: 7px solid #e9ecef;
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */
