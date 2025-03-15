@@ -133,6 +133,11 @@ header .menu nav a {
   font-size: 18px;
   color: #6c7596;
 }
+#about .imgbox {
+  border-radius: 100%;
+  border: 7px solid #e9ecef;
+  width: 150px;
+}
 #about .textbox {
   width: 380px;
 }
@@ -143,12 +148,4 @@ header .menu nav a {
 }
 #about .textbox p {
   font-size: 18px;
-}
-#about .box {
-  width: 150px;
-}
-#about .box .imgbox {
-  border-radius: 100%;
-  border: 7px solid #e9ecef;
-  width: 150px;
 }/*# sourceMappingURL=style.css.map */
