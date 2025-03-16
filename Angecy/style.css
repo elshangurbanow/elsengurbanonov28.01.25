@@ -148,4 +148,48 @@ header .menu nav a {
 }
 #about .textbox p {
   font-size: 18px;
+}
+
+#amazing h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#amazing h3 {
+  font-size: 18px;
+  color: #6c7596;
+}
+#amazing .box .imgbox {
+  width: 230px;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+}
+#amazing .box .textbox {
+  text-align: center;
+}
+#amazing .box .textbox h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 20px 0 10px;
+}
+#amazing .box .textbox h4 {
+  font-size: 18px;
+  color: #6c7596;
+  margin: 0 0 16px;
+}
+#amazing .box .textbox ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#amazing .box .textbox ul li {
+  margin: 0 8px;
+  background-color: #212529;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#amazing .box .textbox ul li .icon {
+  color: white;
+  margin: -7px;
 }/*# sourceMappingURL=style.css.map */
