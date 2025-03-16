@@ -105,7 +105,6 @@ header .menu nav a {
 }
 
 #portfolio {
-  margin: 20px 0;
   background: #f8f9fa;
 }
 #portfolio h1 {
@@ -150,38 +149,42 @@ header .menu nav a {
   font-size: 18px;
 }
 
-#amazing h1 {
+#team {
+  background-color: #f8f9fa;
+}
+#team h1 {
   font-weight: 700;
   font-size: 40px;
+  margin: 0 0 20px;
 }
-#amazing h3 {
+#team h3 {
   font-size: 18px;
   color: #6c7596;
 }
-#amazing .box .imgbox {
+#team .box .imgbox {
   width: 230px;
   border: 7px solid #e9ecef;
   border-radius: 100%;
 }
-#amazing .box .textbox {
+#team .box .textbox {
   text-align: center;
 }
-#amazing .box .textbox h2 {
+#team .box .textbox h2 {
   font-weight: 700;
   font-size: 28px;
   margin: 20px 0 10px;
 }
-#amazing .box .textbox h4 {
+#team .box .textbox h4 {
   font-size: 18px;
   color: #6c7596;
   margin: 0 0 16px;
 }
-#amazing .box .textbox ul {
+#team .box .textbox ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-#amazing .box .textbox ul li {
+#team .box .textbox ul li {
   margin: 0 8px;
   background-color: #212529;
   border-radius: 50%;
@@ -189,7 +192,14 @@ header .menu nav a {
   width: 10px;
   height: 10px;
 }
-#amazing .box .textbox ul li .icon {
+#team .box .textbox ul li .icon {
   color: white;
   margin: -7px;
+}
+#team .wid {
+  width: 750px;
+}
+#team .wid h5 {
+  font-size: 18px;
+  color: #6c7596;
 }/*# sourceMappingURL=style.css.map */
