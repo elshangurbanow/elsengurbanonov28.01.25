@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  padding: 90px 0;
+  padding: 80px 0;
 }
 
 .menu {
@@ -132,21 +132,17 @@ header .menu nav a {
   font-size: 18px;
   color: #6c7596;
 }
-#about .imgbox {
+#about .box .imgbox {
   border-radius: 100%;
   border: 7px solid #e9ecef;
-  width: 150px;
+  width: 180px;
 }
-#about .textbox {
+#about .box .textbox {
   width: 380px;
 }
-#about .textbox h2 {
+#about .box .textbox h2 {
   font-weight: 700;
   font-size: 30px;
-  margin-bottom: 10px;
-}
-#about .textbox p {
-  font-size: 18px;
 }
 
 #team {
@@ -202,4 +198,37 @@ header .menu nav a {
 #team .wid h5 {
   font-size: 18px;
   color: #6c7596;
+}
+
+#media .box .microsoft {
+  width: 205px;
+  height: 44px;
+  margin-left: 100px;
+}
+#media .box .google {
+  width: 118px;
+  height: 44px;
+  margin-left: 100px;
+}
+#media .box .facebook {
+  width: 163px;
+  height: 44px;
+  margin-left: 100px;
+}
+#media .box .ibm {
+  width: 110px;
+  height: 44px;
+  margin-left: 100px;
+}
+
+#contact {
+  background-image: url(Assets/contact.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: red;
 }/*# sourceMappingURL=style.css.map */
