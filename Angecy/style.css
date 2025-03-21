@@ -134,7 +134,6 @@ header .menu nav a {
 }
 #about .box {
   display: flex;
-  margin-right: 50px;
 }
 #about .box .imgbox {
   border-radius: 100%;
@@ -143,7 +142,7 @@ header .menu nav a {
 }
 #about .box .textbox {
   width: 380px;
-  margin: 0 100px 20px 50px;
+  margin: 0 90px;
 }
 #about .box .textbox h2 {
   font-weight: 700;
@@ -151,7 +150,7 @@ header .menu nav a {
   margin-bottom: 10px;
 }
 #about .box .textbox h4 {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
