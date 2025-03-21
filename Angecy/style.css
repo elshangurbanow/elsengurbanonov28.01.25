@@ -132,6 +132,12 @@ header .menu nav a {
   font-size: 18px;
   color: #6c7596;
 }
+#about .box {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 150px;
+}
 #about .box .imgbox {
   border-radius: 100%;
   border: 7px solid #e9ecef;
@@ -144,7 +150,6 @@ header .menu nav a {
   font-weight: 700;
   font-size: 30px;
 }
-
 #team {
   background-color: #f8f9fa;
 }
