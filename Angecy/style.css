@@ -134,6 +134,7 @@ header .menu nav a {
 }
 #about .box {
   display: flex;
+  margin: 50px 0;
 }
 #about .box .imgbox {
   border-radius: 100%;
@@ -152,6 +153,19 @@ header .menu nav a {
 #about .box .textbox h4 {
   font-size: 18px;
   line-height: 1.4;
+}
+#about .btn {
+  width: 180px;
+  height: 180px;
+  background-color: #ffc800;
+  border-radius: 100%;
+  border: 7px solid #e9ecef;
+  padding: 40px 50px;
+}
+#about .btn h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
 }
 
 #team {
