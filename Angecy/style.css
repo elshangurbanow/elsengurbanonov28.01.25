@@ -245,6 +245,7 @@ header .menu nav a {
 }
 
 #contact {
+  background-color: #212529;
   background-image: url(Assets/contact.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -254,7 +255,16 @@ header .menu nav a {
   font-weight: 700;
   font-size: 40px;
   color: white;
+  margin-bottom: 15px;
 }
 #contact h3 {
   color: #6c757d;
+}
+#contact .btn {
+  padding: 15px 30px;
+  background-color: #ffc800;
+}
+#contact .btn h2 {
+  font-weight: 700;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
