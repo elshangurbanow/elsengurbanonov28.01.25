@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  padding: 80px 0;
+  padding: 90px 0;
 }
 
 .menu {
@@ -247,7 +247,7 @@ header .menu nav a {
 #contact {
   background-color: #212529;
   background-image: url(Assets/contact.png);
-  background-position: center center;
+  background-position: center center end;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -260,15 +260,24 @@ header .menu nav a {
 #contact h3 {
   color: #6c757d;
 }
+#contact .textbox {
+  padding: 20px 0;
+}
+#contact .textbox .add input {
+  width: 600px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #b4b7b9;
+  margin: 0 0 25px 0;
+}
 #contact .btn {
-  padding: 15px 30px;
+  opacity: 0.5;
+  padding: 20px 35px;
   background-color: #ffc800;
 }
 #contact .btn h2 {
   font-weight: 700;
+  font-size: 22px;
   color: white;
-}
-#contact .textbox .add input {
-  width: 500px;
-  height: 30px;
 }/*# sourceMappingURL=style.css.map */
