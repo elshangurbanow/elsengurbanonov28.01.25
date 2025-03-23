@@ -267,4 +267,8 @@ header .menu nav a {
 #contact .btn h2 {
   font-weight: 700;
   color: white;
+}
+#contact .textbox .add input {
+  width: 500px;
+  height: 30px;
 }/*# sourceMappingURL=style.css.map */
