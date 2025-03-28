@@ -18,19 +18,18 @@ section {
   padding: 30px;
 }
 
-header .menu {
+header {
   position: fixed;
-  width: 1300px;
-  height: 100px;
-  z-index: 1030;
-  transition: 2s;
-  background-color: #212529;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
 }
 header .menu .imgbox {
   width: 200px;
 }
 header .menu nav a {
-  color: #000000;
+  color: white;
   font-size: 20px;
   margin: 0 15px;
 }
@@ -53,7 +52,7 @@ header .menu nav a {
   font-size: 72px;
   font-weight: 700;
   line: 3.2;
-  margin: 30px 0 60px;
+  line-margin: 30px 0 60px;
 }
 #welcome .box .btn {
   padding: 18px 45px;
@@ -108,7 +107,7 @@ header .menu nav a {
 }
 
 #portfolio {
-  background: #f8f9fa;
+  background: #b1b1b8;
 }
 #portfolio h1 {
   font-weight: 700;
@@ -116,6 +115,7 @@ header .menu nav a {
 }
 #portfolio .textbox {
   padding: 20px;
+  background-color: #ffffff;
 }
 #portfolio .textbox h2 {
   font-size: 25px;
