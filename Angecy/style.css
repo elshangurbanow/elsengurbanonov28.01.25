@@ -19,6 +19,8 @@ section {
 }
 
 header {
+  background-attachment: fixed;
+  background-color: #212529;
   position: fixed;
   right: 0;
   left: 0;
@@ -29,9 +31,45 @@ header .menu .imgbox {
   width: 200px;
 }
 header .menu nav a {
-  color: white;
-  font-size: 20px;
-  margin: 0 15px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fcf7f7;
+  margin-right: 30px;
+}
+header .menu nav a:hover {
+  color: #f8cf75;
+}
+header .menu .btn {
+  display: none;
+}
+@media screen and (max-width: 990px) {
+  header .menu {
+    width: 100%;
+  }
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    border-radius: 7px;
+    border: 1px solid #605e5e;
+    padding: 7px 10px;
+  }
+  header .menu .btn h2 {
+    color: #a5a2a2;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  header .menu .btn .icon {
+    color: #afacac;
+  }
+}
+@media screen and (max-width: 300px) {
+  header .menu {
+    display: flex;
+    flex-flow: row wrap;
+  }
 }
 
 #welcome {
@@ -106,9 +144,6 @@ header .menu nav a {
   line-height: 1.4;
 }
 
-#portfolio {
-  background: #b1b1b8;
-}
 #portfolio h1 {
   font-weight: 700;
   font-size: 40px;

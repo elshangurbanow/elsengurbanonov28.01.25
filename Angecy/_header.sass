@@ -1,4 +1,6 @@
 header
+    background-attachment: fixed
+    background-color: #212529
     position: fixed
     right: 0
     left: 0
@@ -9,6 +11,33 @@ header
             width: 200px
         nav
             a
-                color: #ffff
-                font-size: 20px
-                margin: 0 15px
+                cursor: pointer
+                font-size: 18px
+                color: #fcf7f7
+                margin-right: 30px
+                &:hover
+                    color: #f8cf75
+        .btn
+            display: none
+    @media screen and ( max-width: 990px )
+        .menu
+            width: 100%
+            nav
+                display: none
+            .btn
+                display: flex
+                border-radius: 7px
+                border: 1px solid #605e5e
+                padding: 7px 10px
+                h2
+                    color: #a5a2a2
+                    font-weight: 700
+                    font-size: 18px
+                    margin-right: 10px
+                .icon
+                    color: #afacac
+    @media screen and ( max-width: 300px )
+        .menu
+            display: flex
+            flex-flow: row wrap
+
