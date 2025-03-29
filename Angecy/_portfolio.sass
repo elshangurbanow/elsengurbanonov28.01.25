@@ -1,17 +1,42 @@
 #portfolio
-    background:rgb(182, 174, 174)
+    background: #f8f9fa
     h1
         font-weight: 700
         font-size: 40px
-    .imgbox
-        
-    .textbox
-        padding: 20px
-        background-color: #ffffff
-        h2
-            font-size: 25px
-            font-weight: 700
-        h3
-            font-size: 20px
-            margin: 15px 0
-            color: #6c7596
+    h3
+        font-size: 20px
+        margin: 20px 0 40px
+        color: #6c7596
+    .box
+        margin-bottom: 30px
+        background-color: #ffff
+        padding-bottom: 20px
+        .textbox
+            text-align: center
+            h2
+                font-size: 29px
+                font-weight: 700
+                line-height: 1.2
+                margin-top: 13px
+            h4
+                font-size: 18px
+                color: #838489
+        .imgbox
+            position: relative
+            .icon
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 60px
+                color: #ffff
+                position: absolute
+                top: 0
+                bottom: 0
+                opacity: 0
+                &:hover
+                    background-color: #ffbb00
+                    opacity: 0.9
+                    transition: 0.5s
+                    cursor: pointer
+    @media screen and (max-width: )

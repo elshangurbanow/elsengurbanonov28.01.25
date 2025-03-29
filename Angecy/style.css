@@ -107,7 +107,7 @@ header .menu .btn {
 #welcome .box .btn h2:hover {
   background-color: #ffc800;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   #welcome {
     background-image: url(Assets/header-bg.jpg);
     background-position: center center;
@@ -121,7 +121,7 @@ header .menu .btn {
     font-size: 25px;
   }
   #welcome .box h3 {
-    font-size: 65px;
+    font-size: 72px;
     margin: 30px 0 50px;
   }
 }
@@ -183,7 +183,7 @@ header .menu .btn {
 #services .box .textbox h4 {
   font-size: 20px;
   color: #6c7596;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
   #services h1 {
@@ -200,52 +200,75 @@ header .menu .btn {
     justify-content: center;
     margin: 40px 0;
   }
-  #services .box .minibox .icon {
-    width: 130px;
-    height: 130px;
-    background-color: #ffc800;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
-  }
-  #services .box .minibox .icon i {
-    font-size: 65px;
-    color: white;
-  }
-  #services .box .textbox {
-    text-align: center;
-  }
-  #services .box .textbox h2 {
-    font-size: 28px;
+}
+@media screen and (max-width: 374px) {
+  #services h1 {
+    font-size: 40px;
     font-weight: 700;
-    margin: 15px 0;
   }
-  #services .box .textbox h4 {
-    font-size: 20px;
+  #services h3 {
+    font-size: 18px;
     color: #6c7596;
-    line-height: 1.4;
+  }
+  #services .box {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 0 0;
   }
 }
 
+#portfolio {
+  background: #f8f9fa;
+}
 #portfolio h1 {
   font-weight: 700;
   font-size: 40px;
 }
-#portfolio .textbox {
-  padding: 20px;
-  background-color: #ffffff;
-}
-#portfolio .textbox h2 {
-  font-size: 25px;
-  font-weight: 700;
-}
-#portfolio .textbox h3 {
+#portfolio h3 {
   font-size: 20px;
-  margin: 15px 0;
+  margin: 20px 0 40px;
   color: #6c7596;
 }
-
+#portfolio .box {
+  margin-bottom: 30px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+#portfolio .box .textbox {
+  text-align: center;
+}
+#portfolio .box .textbox h2 {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 13px;
+}
+#portfolio .box .textbox h4 {
+  font-size: 18px;
+  color: #838489;
+}
+#portfolio .box .imgbox {
+  position: relative;
+}
+#portfolio .box .imgbox .icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+}
+#portfolio .box .imgbox .icon:hover {
+  background-color: #ffbb00;
+  opacity: 0.9;
+  transition: 0.5s;
+  cursor: pointer;
+}
 #about h1 {
   font-weight: 700;
   font-size: 40px;
