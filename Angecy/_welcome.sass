@@ -13,11 +13,38 @@
             font-size: 72px
             font-weight: 700
             line: 3.2
-                margin: 30px 0 60px
+            margin: 30px 0 50px
         .btn
             padding: 18px 45px
             background: #ffc800
             h2
                 color: #ffff
+                font-size: 25px
+                font-weight: 700
+                cursor: pointer
+                &:hover
+                    background-color: #ffc800
+    @media screen and ( max-width: 768px )
+        background-image: url(Assets/header-bg.jpg)
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+        .box
+            color: #ffff
+            h1
+                font-size: 25px
+            h3
+                font-size: 65px
+                margin: 30px 0 50px
+    @media screen and ( max-width: 374px )
+        background-image: url(Assets/header-bg.jpg)
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+        .box
+            color: #ffff
+            h1
                 font-size: 20px
-                font-weight: 500
+            h3
+                font-size: 55px
+                margin: 15px 0 35px

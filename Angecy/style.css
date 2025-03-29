@@ -28,7 +28,7 @@ header {
   width: 100%;
 }
 header .menu .imgbox {
-  width: 200px;
+  width: 170px;
 }
 header .menu nav a {
   cursor: pointer;
@@ -44,6 +44,8 @@ header .menu .btn {
 }
 @media screen and (max-width: 990px) {
   header .menu {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
   }
   header .menu nav {
@@ -65,7 +67,7 @@ header .menu .btn {
     color: #afacac;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 374px) {
   header .menu {
     display: flex;
     flex-flow: row wrap;
@@ -90,7 +92,7 @@ header .menu .btn {
   font-size: 72px;
   font-weight: 700;
   line: 3.2;
-  line-margin: 30px 0 60px;
+  margin: 30px 0 50px;
 }
 #welcome .box .btn {
   padding: 18px 45px;
@@ -98,8 +100,48 @@ header .menu .btn {
 }
 #welcome .box .btn h2 {
   color: white;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#welcome .box .btn h2:hover {
+  background-color: #ffc800;
+}
+@media screen and (max-width: 768px) {
+  #welcome {
+    background-image: url(Assets/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #welcome .box {
+    color: white;
+  }
+  #welcome .box h1 {
+    font-size: 25px;
+  }
+  #welcome .box h3 {
+    font-size: 65px;
+    margin: 30px 0 50px;
+  }
+}
+@media screen and (max-width: 374px) {
+  #welcome {
+    background-image: url(Assets/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #welcome .box {
+    color: white;
+  }
+  #welcome .box h1 {
+    font-size: 20px;
+  }
+  #welcome .box h3 {
+    font-size: 55px;
+    margin: 15px 0 35px;
+  }
 }
 
 #services h1 {
@@ -142,6 +184,48 @@ header .menu .btn {
   font-size: 20px;
   color: #6c7596;
   line-height: 1.4;
+}
+@media screen and (max-width: 768px) {
+  #services h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  #services h3 {
+    font-size: 18px;
+    color: #6c7596;
+  }
+  #services .box {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  #services .box .minibox .icon {
+    width: 130px;
+    height: 130px;
+    background-color: #ffc800;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  #services .box .minibox .icon i {
+    font-size: 65px;
+    color: white;
+  }
+  #services .box .textbox {
+    text-align: center;
+  }
+  #services .box .textbox h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 15px 0;
+  }
+  #services .box .textbox h4 {
+    font-size: 20px;
+    color: #6c7596;
+    line-height: 1.4;
+  }
 }
 
 #portfolio h1 {
